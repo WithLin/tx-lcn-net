@@ -11,7 +11,7 @@ namespace Lcn.TxClient.Core.Aop
 
         public string GroupId { get; set; }
 
-        private string Type { get; set; }
+        public string Type { get; set; }
 
         public int StartState { get; set; }
     }

@@ -13,7 +13,7 @@ namespace Lcn.TxClient.Core.Aop
 
         public int MaxTimeOut;
 
-        private ConcurrentDictionary<string, string> CacheModelInfo = new ConcurrentDictionary<string, string>();
+        public ConcurrentDictionary<string, string> CacheModelInfo = new ConcurrentDictionary<string, string>();
 
         /**
          * 是否同一个模块被多次请求

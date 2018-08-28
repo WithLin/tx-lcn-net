@@ -28,7 +28,7 @@ namespace Lcn.TxClient.Core.Model
         /**
          * 方法字符串
          */
-        private string MethodStr { get; set; }
+        public string MethodStr { get; set; }
 
         public TransactionInvocation()
         {
